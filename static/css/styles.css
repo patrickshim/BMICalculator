@@ -20,6 +20,8 @@ body {
 .results-container div {
     display: flex;
     align-items: center;
+    height: 30px;
+    width: 35px;
 }
 
 .text-field-container {
