@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
     <title>BMI Calculator</title>
 </head>
 <body>
-    
+    <div class="container-1">
+        <h1>BMI Calculator</h1>
+
+        <div class="container-2">
+            <div class="height-weight-container">
+                Height: <input type="text" id="height"> cm
+                Weight: <input type="text" id="myText"> lb
+            </div>
+
+            <div>
+                <button class="btn btn-primary">Calculate BMI</button>
+            </div>
+                
+            <div>
+                <button class="btn btn-danger">Reset</button>
+            </div>    
+        </div>
+    </div>
+    <script src="static/js/script.js"></script>
 </body>
 </html>
