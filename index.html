@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,42 @@
     <link rel="stylesheet" href="static/css/styles.css">
     <title>BMI Calculator</title>
 </head>
+
 <body>
     <div class="container-1">
         <h1>BMI Calculator</h1>
-         
-        <div class="text-field-container"> 
-            &nbsp
-            <div>
-                Height:&nbsp  <input type="text" id="height"> cm
-            </div>
-            <br>
-            <div> 
-                Weight: <input type="text" id="weight"> lb
-            </div>
-            <br>
-            Your BMI:
-            <div class="results-container">
-                <div id="flex-box-results"></div>
-            </div>
-            &nbsp
-        </div>
+    </div>
 
-        <div class="button-container">
-            <div>
-                <button class="btn btn-primary" onclick="bmiCalculator()">Calculate BMI</button>
-            </div>
-            &nbsp;
-            &nbsp;    
-            <div>
-                <button class="btn btn-danger" onClick="reset()">Reset</button>
-            </div>   
+    <div class="text-field-container"> 
+        &nbsp
+        <div>
+            Height: <input type="text" id="feet" style="width: 80px"> ft <input type="text" id="inches" style="width: 80px"> in
+        </div>
+        <br>
+        <div> 
+            Weight: <input type="text" id="lb"> lb
+        </div>
+        <br>
+        
+        Your BMI:
+        <div class="results-container">
+            <div id="flex-box-results"></div>
+        </div>
+        &nbsp
         </div>
     </div>
+
+    <div class="button-container">
+        <div>
+            <button class="btn btn-primary" onclick="bmiCalculator()">Calculate BMI</button>
+        </div>
+        &nbsp;
+        &nbsp;    
+        <div>
+            <button class="btn btn-danger" onClick="reset()">Reset</button>
+        </div>   
+    </div>
+
     <script src="static/js/script.js"></script>
 </body>
 </html> 

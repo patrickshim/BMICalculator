@@ -5,26 +5,33 @@ body {
 .container-1 {
     text-align: center;
     border: 1px solid #000000;
+    border-style: solid;
     margin: 0 auto; 
     width: 75%;
-    
 }
 
 .results-container {
     border: 1px solid #000000;
     padding: 10px;
     flex-wrap: wrap;
-    height: 2em;
-    width: 2em;
     margin: auto;
+}
+
+.results-container div {
+    display: flex;
+    align-items: center;
 }
 
 .text-field-container {
     border: 1px solid #000000;
+    border-style: dashed;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
+    align-items: center;
+    margin: 0 auto; 
+    width: 75%;
 }
 
 .button-container {
@@ -34,4 +41,6 @@ body {
     padding: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto; 
+    width: 75%;
 }
