@@ -11,21 +11,29 @@
     <div class="container-1">
         <h1>BMI Calculator</h1>
          
-        <div class="container-2"> 
+        <div class="text-field-container"> 
+            &nbsp
             <div>
-                Height: <input type="text" id="height"> cm
-            </div> <br>
-            
+                Height:&nbsp  <input type="text" id="height"> cm
+            </div>
+            <br>
             <div> 
                 Weight: <input type="text" id="weight"> lb
             </div>
+            <br>
+            Your BMI:
+            <div class="results-container">
+                <div id="flex-box-results"></div>
+            </div>
+            &nbsp
         </div>
-        
-        <div class="container-3">
+
+        <div class="button-container">
             <div>
                 <button class="btn btn-primary" onclick="bmiCalculator()">Calculate BMI</button>
             </div>
-                
+            &nbsp;
+            &nbsp;    
             <div>
                 <button class="btn btn-danger" onClick="reset()">Reset</button>
             </div>   

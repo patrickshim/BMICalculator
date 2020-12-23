@@ -1,7 +1,7 @@
 function bmiCalculator() {
-  alert("I'm a calculator");
+  alert('calculate button working');
 }
 
 function reset() {
-  alert("I'm a reset button");
+  alert('reset button working');
 }
