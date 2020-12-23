@@ -20,8 +20,7 @@ body {
 .results-container div {
     display: flex;
     align-items: center;
-    height: 30px;
-    width: 35px;
+    margin: auto;
 }
 
 .text-field-container {
@@ -68,7 +67,6 @@ body {
 .bmi-chart-container td, th {
     border: 1px solid black;
     padding: 10px;
-    border-collapse: collapse;
 }
 
 .bmi-chart-container tr:nth-child(even) {        
